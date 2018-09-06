@@ -1,0 +1,108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		523691C9214147680000F9F0 /* libkern */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libkern; path = ../libkern; sourceTree = "<group>"; };
+		523691CA214147680000F9F0 /* EXTERNAL_HEADERS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EXTERNAL_HEADERS; path = ../EXTERNAL_HEADERS; sourceTree = "<group>"; };
+		523691CB214147680000F9F0 /* APPLE_LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = APPLE_LICENSE; path = ../APPLE_LICENSE; sourceTree = "<group>"; };
+		523691CC214147680000F9F0 /* makedefs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = makedefs; path = ../makedefs; sourceTree = "<group>"; };
+		523691CD214147680000F9F0 /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; name = config; path = ../config; sourceTree = "<group>"; };
+		523691CE214147680000F9F0 /* libsa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libsa; path = ../libsa; sourceTree = "<group>"; };
+		523691CF214147690000F9F0 /* libkdd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libkdd; path = ../libkdd; sourceTree = "<group>"; };
+		523691D0214147690000F9F0 /* san */ = {isa = PBXFileReference; lastKnownFileType = folder; name = san; path = ../san; sourceTree = "<group>"; };
+		523691D1214147690000F9F0 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tools; path = ../tools; sourceTree = "<group>"; };
+		523691D2214147690000F9F0 /* SETUP */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SETUP; path = ../SETUP; sourceTree = "<group>"; };
+		523691D3214147690000F9F0 /* iokit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iokit; path = ../iokit; sourceTree = "<group>"; };
+		523691D4214147690000F9F0 /* osfmk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = osfmk; path = ../osfmk; sourceTree = "<group>"; };
+		523691D5214147690000F9F0 /* pexpert */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pexpert; path = ../pexpert; sourceTree = "<group>"; };
+		523691D6214147690000F9F0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		523691D72141476A0000F9F0 /* bsd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = bsd; path = ../bsd; sourceTree = "<group>"; };
+		523691D82141476A0000F9F0 /* libsyscall */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libsyscall; path = ../libsyscall; sourceTree = "<group>"; };
+		523691D92141476A0000F9F0 /* security */ = {isa = PBXFileReference; lastKnownFileType = folder; name = security; path = ../security; sourceTree = "<group>"; };
+		523691DA2141476A0000F9F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		523691DB2141476A0000F9F0 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		523691C2214147320000F9F0 = {
+			isa = PBXGroup;
+			children = (
+				523691CB214147680000F9F0 /* APPLE_LICENSE */,
+				523691D72141476A0000F9F0 /* bsd */,
+				523691CD214147680000F9F0 /* config */,
+				523691CA214147680000F9F0 /* EXTERNAL_HEADERS */,
+				523691D3214147690000F9F0 /* iokit */,
+				523691CF214147690000F9F0 /* libkdd */,
+				523691C9214147680000F9F0 /* libkern */,
+				523691CE214147680000F9F0 /* libsa */,
+				523691D82141476A0000F9F0 /* libsyscall */,
+				523691D6214147690000F9F0 /* LICENSE */,
+				523691CC214147680000F9F0 /* makedefs */,
+				523691DB2141476A0000F9F0 /* Makefile */,
+				523691D4214147690000F9F0 /* osfmk */,
+				523691D5214147690000F9F0 /* pexpert */,
+				523691DA2141476A0000F9F0 /* README.md */,
+				523691D0214147690000F9F0 /* san */,
+				523691D92141476A0000F9F0 /* security */,
+				523691D2214147690000F9F0 /* SETUP */,
+				523691D1214147690000F9F0 /* tools */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		523691C3214147320000F9F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 523691C6214147320000F9F0 /* Build configuration list for PBXProject "darwin-xnu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 523691C2214147320000F9F0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		523691C7214147320000F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		523691C8214147320000F9F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		523691C6214147320000F9F0 /* Build configuration list for PBXProject "darwin-xnu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523691C7214147320000F9F0 /* Debug */,
+				523691C8214147320000F9F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523691C3214147320000F9F0 /* Project object */;
+}
